@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <title>Javascript 01</title>
+    <script>
+        alert("olá galera!")
+        function trocarFrase() {
+            var fraseAtual = document.getElementById("frase");
+            fraseAtual.innerHTML = "Funcionou, a frase mudou!";
+            fraseAtual.style.color = "red";
+            fraseAtual.style.fontSize = "25px";
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1 id="frase" ondblclick="trocarFrase()">Olá Mundo</h1>
+    
+</body>
+</html>
