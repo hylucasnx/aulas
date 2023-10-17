@@ -4,18 +4,30 @@
     <title>Javascript 01</title>
     <script>
         alert("olá galera!")
+
         function trocarFrase() {
-            var fraseAtual = document.getElementById("frase");
-            fraseAtual.innerHTML = "Funcionou, a frase mudou!";
-            fraseAtual.style.color = "red";
-            fraseAtual.style.fontSize = "25px";
+            var elemento= document.getElementById("frase");
+            elemento.innerHTML = "Qualquer frase";
+            elemento.style.color = "red";
+            elemento.style.fontSize = "25px";
+            elemento.style.background = "yellow";
+            document.body.style.background= "blue";
+            elemento.innerHTML= "img src=\'a.jpeg\'/>"
         }
     </script>
+    <script src="js/myscipt.js"></script>
+    <link rel="stylesheet" href="css/style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <h1 id="frase" ondblclick="trocarFrase()">Olá Mundo</h1>
+    <h1
+    
+id="frase" ondblclick="trocarFrase()"
+    onmouseover="trocarClasse()"
+id="frase"
+class-"h1_1"
+>Olá Mundo</h1>
     
 </body>
 </html>
