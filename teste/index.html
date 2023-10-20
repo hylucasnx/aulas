@@ -1,33 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head> 
-    <title>Javascript 01</title>
-    <script>
-        alert("olá galera!")
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Javascript 01</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script type="text/Javascript" src="js/myscript.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <h1 id="frase" ondblclick="trocarClasse()" class="h1_1">Olá Mundo!</h1>
+        <input id="novaFrase" type="text"><br>
+        <input id="botao" type="button" value="Trocar Frase" onclick="trocarTexto();"><br>
+        <a href="../calculadora.html">calculadora</a>
 
-        function trocarFrase() {
-            var elemento= document.getElementById("frase");
-            elemento.innerHTML = "Qualquer frase";
-            elemento.style.color = "red";
-            elemento.style.fontSize = "25px";
-            elemento.style.background = "yellow";
-            document.body.style.background= "blue";
-            elemento.innerHTML= "img src=\'a.jpeg\'/>"
-        }
-    </script>
-    <script src="js/myscipt.js"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-    <h1
-    
-id="frase" ondblclick="trocarFrase()"
-    onmouseover="trocarClasse()"
-id="frase"
-class-"h1_1"
->Olá Mundo</h1>
-    
-</body>
+    </body>
 </html>
