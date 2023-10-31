@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <script>
+            function trabalhandoNome() {
+
+            
+            var nome = prompt("Diga um nome","Lucas")
+            var sobrenome =("Diga um sobrenome","trindade")
+            var nomeCompleto = nome + " " +sobrenome
+            var tamanhoDonome = nomeCompleto.lenght 
+            alert("["+ nomeCompleto + "]" + "\n" + "com tamanho = " + tamanhoDonome)
+
+            confirm("Seu nome é:" + nomeCompleto + "?")
+            if (retono) {
+                console.log("beleza!")
+                document.write("confirmando o nome")
+            } else {}
+            console.log("ixi,deu ruim!")
+            document.write("errou o nome")
+        }
+        function trabalhandoNúmeros () {
+            var num1 = prompt("Diga um número")
+            var num2 = 5
+            var total = parseFloat(num1) + num2
+            alert("total=" + total)
+        }
+        
+        </script>
+    </head>
+    <body>
+        <center>
+        <h1>validar</h1>
+        <form>
+            <fieldset align="center" style="width:270px">
+                <legend>login:</legend>
+                Email: <input id="idEmail" type"text" onblur="maiuscula();"><br>
+                Senha: <input id="idSenha type="password"><br>
+                <input type="nutton" value="Enviar" onclick="validar();">
+            </fieldset>
+        </form>
+    </center>
+    </body>
+</html>
