@@ -71,3 +71,31 @@ function dividir() {
     let campoResultado = document.getElementById("resultado")
     campoResultado.value = resultadoDaSoma;
 }
+
+function contar() {
+    var soma = 0
+    for(var n = 0; n < 10; n++) {
+        var soma = soma + n
+    }
+    document.write() 
+function contar() {
+   var n = 0
+    while (n <= 25) {
+        n =  pronpt('diga um número')
+
+    }
+    function listas () {
+        var lista = [1,2,3,4,5,6,7]
+        for ( var cont = 0; cont < cars.lenght; cont++) {
+            var texto = car(cont)
+            console.log(texto)
+        }
+    }
+
+
+    
+       
+
+    
+
+     
