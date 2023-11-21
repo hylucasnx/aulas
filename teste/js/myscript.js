@@ -74,15 +74,15 @@ function dividir() {
 
 function contar() {
     var soma = 0
-    for(var n = 0; n < 10; n++) {
+    for(var n = 0; n < 10; n++) 
         var soma = soma + n
     }
     document.write() 
 function contar() {
    var n = 0
-    while (n <= 25) {
+    while (n <= 25) 
         n =  pronpt('diga um número')
-
+    
     }
     function listas () {
         var lista = [1,2,3,4,5,6,7]
@@ -92,9 +92,41 @@ function contar() {
         }
     }
 
+    function contar(){
+        var a = ["josé","maria","padre","joana","bento","francisco" ]
+        for (let index = 0; index < a.lenght; index++) {
+            const element = a[index];
 
+            if(element == "pastor"){
+                document.write("casinha:" + index + "tem" + element + "<br>")
+                break
+            }
+        }
+
+        var quem = prompt("diga um nome")
+        var ondeEsta = a.indexOf(quem) // -1
+        if(ondeEsta != -1){
+            document.write("casinha:" + ondeEsta + "tem" + "<br>")
+            
+        }
+    }
+
+    const arrayValores = [];
+    for (let i = 0; i <= numeroFornecido; i++) {
+        arrayaValores.push(i);
+    }
     
-       
+    document.write("Original: " + arrayValores + "<br>");
+    document.write("<hr>");
+    
+    const valorRemover = parseInt(prompt("Digite um valor para remover:"));
+
+    const index = arrayValores.indexOf(valorRemover);
+    if(index !== -1) {
+        arrayValores.splice(index,1);
+    }
+     document.write("Alterado:" + arrayValores + "<br>");
+     document.write("<hr>");
 
     
 
