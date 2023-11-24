@@ -128,6 +128,28 @@ function contar() {
      document.write("Alterado:" + arrayValores + "<br>");
      document.write("<hr>");
 
-    
+    function contar() {
+        var medias = [];
+        var m1 = prompt("diga a media do 1o tri");
+        var m2 = promprt("diga a media do o2 tri");
 
+        medias[0] = m1;
+        medias[1] = m2;
+
+        var somatoria = 0.0;
+        for (var i = 0; i < medias.length; i++) {
+            var nota = medias[i];
+            somatoria = somatoria + parseFloat(nota);
+        }
+
+        var m3 = 18.0 - somatoria;
+        if (m3< 10.0) {
+            alert("Voce precisa alcançar" + m3);
+
+        } else [
+            alert("nao deu.precisaria de " = + m3" . Esta reprovado!");
+        ]
+
+    }   
+    
      
